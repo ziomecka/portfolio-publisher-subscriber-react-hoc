@@ -6,10 +6,10 @@ import {
 import { EventCallback } from 'publisher-subscriber-pattern';
 
 export interface WithPublisherProps {
-  eventSubscribersCount(eventName: string): number;
-  subscribe(eventName: string, eventCallback: EventCallback): () => void;
-  subscribersCount(): number;
-  unsubscribeAll(): void;
+  eventSubscribersCount?: (eventName: string) => number;
+  subscribe?: (eventName: string, eventCallback: EventCallback) => () => void;
+  subscribersCount?: () => number;
+  unsubscribeAll?: () => void;
 };
 
 export const withPublisher = <P extends object>(Component: React.ComponentType<P>) => (
