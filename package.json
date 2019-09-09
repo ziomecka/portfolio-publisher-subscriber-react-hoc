@@ -1,6 +1,6 @@
 {
   "name": "publisher-subscriber-react-hoc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Higher-Order Component, which provides 'subscribe', 'unsubscribeAll', 'eventSubscribersCount', 'subscribersCount' methods. Can be used with various eventEmitters, including browser's 'window' object.",
   "main": "dist/index.js",
   "dependencies": {
