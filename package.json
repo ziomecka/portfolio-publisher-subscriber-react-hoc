@@ -4,7 +4,7 @@
   "description": "React Higher-Order Component, which provides 'subscribe', 'unsubscribeAll', 'eventSubscribersCount', 'subscribersCount' methods. Can be used with various eventEmitters, including browser's 'window' object.",
   "main": "dist/index.js",
   "dependencies": {
-    "publisher-subscriber-pattern": "2.0.2",
+    "publisher-subscriber-pattern": "2.0.4",
     "react": "16.9.0",
     "react-dom": "16.9.0"
   },
