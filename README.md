@@ -1,4 +1,9 @@
+[![npm version](https://badge.fury.io/js/publisher-subscriber-react-hoc.svg)](https://badge.fury.io/js/publisher-subscriber-react-hoc)
+
+---
+
 # About
+
 * Javascript implementation of publisher subscriber pattern for React (Higher-order-component)
 * Can be used with various event emitters including browser's window object
 * Provides **ProviderPublisher** and **withPublisher**
@@ -8,7 +13,10 @@
 npm i publisher-subscriber-react-hoc
 ```
 
+---
+
 # API
+
 ## **PublisherProvider**
 ```javascript
 interface PublisherProviderProps {
@@ -28,6 +36,8 @@ interface WithPublisherProps {
   unsubscribeAll(): void;
 };
 ```
+
+---
 
 # Dependencies
 
